@@ -4,7 +4,7 @@ Operation types and commands
 
 Inventory operations, like :doc:`receipts and delivery
 orders <../../inventory/shipping_receiving/daily_operations/receipts_delivery_one_step>`, as well
-commands, like validating a transfer or putting products in packages, can be performed by scanning
+as commands, like validating a transfer or putting products in packages, can be performed by scanning
 barcodes through the **Barcode** app. This allows employees to handle tasks and access menus without
 the need to touch a screen or use the **Inventory** app on a computer, and allows workflow
 streamlining by putting operation barcodes in the appropriate physical location.
@@ -85,8 +85,8 @@ displayed after the first time it is clicked.
 From Inventory Settings
 -----------------------
 
-Inventory commands and operation types barcodes can always be printed from the *Settings* page. Go
-to :menuselection:`Inventory app --> Configuration --> Settings` and in the *Barcode*
+If the barcode print prompt is not available, inventory commands and operation types barcodes can always be printed from the *Settings* page. Go
+to :menuselection:`Inventory app --> Configuration --> Settings` and in the :guilabel:`Barcode`
 section under the :guilabel:`Barcode Scanner` setting, click :icon:`fa-print` :guilabel:`Print
 barcode commands and operation types`.
 
@@ -123,7 +123,7 @@ are broadly referred to as "picking operations" or "picking".
 In Barcode
 ----------
 
-From the **Barcode** app, tap the :guilabel:`Operations` button, and select the operation type, and
+From the **Barcode** app, tap the :guilabel:`Operations` button, select the operation type, and
 then the specific order to print. From there, either scan the :guilabel:`PRINT PICKING OPERATION`
 barcode if there is one available, or tap the :icon:`fa-cog` :guilabel:`(cog)` icon to open the
 Barcode Actions menu and tap the :guilabel:`Print Picking Operation` button.
@@ -146,7 +146,6 @@ From the order, click the :icon:`fa-cog` :guilabel:`(Actions)` icon, hover over 
    operations. For example, the "IN" in `WH/IN/00012` indicates that it is a receipt operation.
    These references are similar to, but do not exactly match the operation type barcodes.
 
-
 Use barcodes for inventory operations and commands
 ==================================================
 
@@ -164,7 +163,7 @@ Operations
          Scanning :guilabel:`Receipts (WHIN)` will create a brand new receipt, even if the contents
          match an existing receipt exactly.
 
-- :guilabel:`Delivery Orders (WHOUT)` opens the currently scheduled delivery orders
+- :guilabel:`Delivery Orders (WHOUT)` opens the currently scheduled delivery orders.
 - :guilabel:`Manufacturing (WHMANUF)` creates a new manufacturing order. Scanning a product barcode
   from here will add it to the *Producing* list.
 - :guilabel:`Internal Transfers (WHINT)` creates a new transfer order. :doc:`Location barcodes
@@ -199,9 +198,8 @@ Print barcodes for manufacturing commands
 By default, the :guilabel:`Manufacturing` operation type can scan products and components and tap a
 :guilabel:`Produce` button to produce them. To print barcodes for basic manufacturing operations, go
 to :menuselection:`Manufacturing app --> Configuration --> Settings`, then, in the
-:guilabel:`Operations` section, make sure the  :guilabel:`Barcode Scanner` box is ticked and click
-:icon:`fa-print` :guilabel:` Print barcode commands and operation types`.
-
+:guilabel:`Operations` section, make sure the :guilabel:`Barcode Scanner` box is ticked and click
+:icon:`fa-print` :guilabel:`Print barcode commands and operation types`.
 
 Work order commands
 -------------------
